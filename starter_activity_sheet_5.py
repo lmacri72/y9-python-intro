@@ -8,5 +8,6 @@ def demo():
   for counter in range (20):
     forward (150)
     right(100)
+  done()
 
 demo()
