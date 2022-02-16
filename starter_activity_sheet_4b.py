@@ -1,16 +1,13 @@
 # week 4 Loops
 
-import turtle
+from turtle import *
 
-# Initializing the turtle
-t = turtle.Turtle()
-    
 def square():
-    
     for counter in range(4):
-        t.forward(100)
-        t.right(90)
+        forward(100)
+        right(90)
 
 square()
-t.left(45)
+left(45)
 square()
+done()
